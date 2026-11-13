@@ -5,7 +5,7 @@ Datum: 2026-09-03. Alle Spikes grün. Entscheidungen für Phase 1.
 ## Spike A — opencode interaktiv im Container (PTY)
 
 **Setup:** `node:24-slim`, opencode-ELF-Binary read-only gemountet
-(`/home/dion/.opencode/bin/opencode` → `/usr/local/bin/opencode`),
+(`opencode` → `/usr/local/bin/opencode`),
 Config-Dir read-only gemountet (`~/.config/opencode` → `/root/.config/opencode`).
 
 **Ergebnis:**

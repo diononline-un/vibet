@@ -7,7 +7,7 @@ const p = pty.spawn(cmd, args, {
   name: "xterm-256color",
   cols: 100,
   rows: 30,
-  cwd: "/home/dion/Projekte/vibet",
+  cwd: "./",
   env: { ...process.env, TERM: "xterm-256color" },
 });
 
